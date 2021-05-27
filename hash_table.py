@@ -1,7 +1,7 @@
 #Hash Table implementation(Internal Working of Dictionary in Python)
 
 stock_prices = []
-with open("himal.csv","r") as f:
+with open("stock_prices.csv","r") as f:
     for line in f:
         tokens = line.split(',')
         day = tokens[0]
